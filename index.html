@@ -33,6 +33,8 @@
 
 <body class="theme-red">
 
+  <div id="loader"></div>
+
   <!-- Back to top button -->
   <div class="btn-back_to_top">
     <span class="ti-arrow-up"></span>
@@ -78,15 +80,11 @@
               <a href="#portfolio" class="nav-link" data-animate="scrolling">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a href="#blog" class="nav-link" data-animate="scrolling">Blog</a>
-            </li>
-            <li class="nav-item">
               <a href="#contact" class="nav-link" data-animate="scrolling">Contacto</a>
             </li>
           </ul>
           <ul class="nav ml-auto">
             <li class="nav-item">
-              <button id="language" onclick="changeLanguage" class="btn btn-fab btn-theme no-shadow">Es</button>
             </li>
           </ul>
           
@@ -163,7 +161,7 @@
         </div>
         <div class="col-md-6">
           <div class="px-lg-3">
-            <h4 class="wow fadeInUp">Design Skills</h4>
+            <h4 class="wow fadeInUp">Coding Skills</h4>
             <div class="progress-wrapper wow fadeInUp">
               <span class="caption">SASS</span>
               <div class="progress">
@@ -252,7 +250,7 @@
   <div class="vg-page page-service">
     <div class="container">
       <div class="text-center wow fadeInUp">
-        <div class="badge badge-subhead">Service</div>
+        <div class="badge badge-subhead">Servicios</div>
       </div>
       <h1 class="fw-normal text-center wow fadeInUp">¿Que puedo hacer?</h1>
       <div class="row mt-5">
@@ -303,30 +301,7 @@
       </div>
     </div>
   </div>
-  <!--
-  <div class="vg-page page-funfact" style="background-image: url(../assets/img/bg_banner.jpg);">
-    <div class="container">
-      <div class="row section-counter">
-        <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
-          <h1 class="number" data-number="768">768</h1>
-          <span>Clients</span>
-        </div>
-        <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
-          <h1 class="number" data-number="230">230</h1>
-          <span>Project Compleate</span>
-        </div>
-        <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
-          <h1 class="number" data-number="97">97</h1>
-          <span>Project Ongoing</span>
-        </div>
-        <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
-          <h1 class="number" data-number="699">699</h1>
-          <span>Client Satisfaction</span>
-        </div>
-      </div>
-    </div>
-  </div>
--->
+  
   <!-- Portfolio page -->
   <div class="vg-page page-portfolio" id="portfolio">
     <div class="container">
@@ -338,10 +313,7 @@
         <button class="btn btn-theme-outline selected" data-filter="*">All</button>
         <button class="btn btn-theme-outline" data-filter=".apps">Apps</button>
         <button class="btn btn-theme-outline" data-filter=".template">Template</button>
-        <button class="btn btn-theme-outline" data-filter=".ios">IOS</button>
         <button class="btn btn-theme-outline" data-filter=".ui-ux">UI/UX</button>
-        <button class="btn btn-theme-outline" data-filter=".graphic">Graphic</button>
-        <button class="btn btn-theme-outline" data-filter=".wireframes">Wireframes</button>
       </div>
 
       <div class="gridder my-3">
@@ -422,6 +394,28 @@
 
       <!-- Footer -->
 
+      <footer id="contact" class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Síguenos en Redes Sociales</h3>
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h3>Contacto</h3>
+                    <p>Puedes contactarnos en cualquier momento.</p>
+                    <p>Correo electrónico: info@example.com</p>
+                    <p>Teléfono: +123456789</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
 
       <script src="../assets/js/jquery-3.5.1.min.js"></script>
 
@@ -441,7 +435,7 @@
 
       <script src="../assets/vendor/waypoints/jquery.waypoints.min.js"></script>
       
-      <script src="assets/js/translation.js"></script>
+      <script src="assets/js/main.js"></script>
 
       <script src="../assets/js/topbar-virtual.js"></script>
 
