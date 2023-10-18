@@ -138,13 +138,15 @@ a:hover, a:active {
     position: relative;
     display: block;
     margin: 0 auto;
-    width: 100%;height: 100%;
+    width: 100%;
+    height: 100%;
     overflow: hidden;
     z-index: 10;
 }
 
 .img-place > img {
-    width: 100%;height: auto;
+    width: 100%;
+    height: 100%;
 }
 
 /* Overlay */
@@ -1095,7 +1097,7 @@ a:hover, a:active {
 
 .grid-item img {
     width: 100%;
-    height: 100%;
+    height: 210px;
 }
 
 .grid-item .img-place {
@@ -1106,7 +1108,6 @@ a:hover, a:active {
     height: 100%;
     border-radius: 4px;
     overflow: hidden;
-    cursor: pointer;
 }
 
 .grid-item .img-caption {
